@@ -1,0 +1,21 @@
+2025-04-10 09:42:56.882 [info] 
+
+
+
+
+2025-04-10 09:42:56.899 [info] Extension host agent started.
+2025-04-10 09:42:56.920 [info] Started initializing default profile extensions in extensions installation folder. file:///home/aysen_popov_1999/.codeoss/extensions
+2025-04-10 09:42:56.935 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/aysen_popov_1999/.codeoss/extensions
+2025-04-10 09:43:05.578 [info] [127.0.0.1][fb09f97d][ManagementConnection] New connection established.
+2025-04-10 09:43:06.352 [info] [127.0.0.1][a3aea092][ExtensionHostConnection] New connection established.
+2025-04-10 09:43:08.819 [info] [127.0.0.1][a3aea092][ExtensionHostConnection] <1986> Launched Extension Host Process.
+2025-04-10 09:55:06.888 [info] [127.0.0.1][fb09f97d][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-04-10 09:57:35.937 [info] [127.0.0.1][4c1698df][ManagementConnection] New connection established.
+2025-04-10 09:57:36.724 [info] [127.0.0.1][b9cd7d4b][ExtensionHostConnection] New connection established.
+2025-04-10 09:57:36.729 [info] [127.0.0.1][b9cd7d4b][ExtensionHostConnection] <2879> Launched Extension Host Process.
+2025-04-10 10:02:36.258 [info] [127.0.0.1][a3aea092][ExtensionHostConnection] <1986> Extension Host Process exited with code: 0, signal: null.
+2025-04-10 10:26:15.721 [info] [127.0.0.1][4c1698df][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-04-10 10:26:32.667 [info] [127.0.0.1][8d00a7a4][ManagementConnection] New connection established.
+2025-04-10 10:26:33.434 [info] [127.0.0.1][15d8a7a7][ExtensionHostConnection] New connection established.
+2025-04-10 10:26:33.440 [info] [127.0.0.1][15d8a7a7][ExtensionHostConnection] <3927> Launched Extension Host Process.
+2025-04-10 10:31:33.193 [info] [127.0.0.1][b9cd7d4b][ExtensionHostConnection] <2879> Extension Host Process exited with code: 0, signal: null.

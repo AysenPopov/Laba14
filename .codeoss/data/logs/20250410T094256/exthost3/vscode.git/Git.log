@@ -1,0 +1,145 @@
+2025-04-10 10:26:59.706 [info] [main] Log level: Info
+2025-04-10 10:26:59.706 [info] [main] Validating found git in: "git"
+2025-04-10 10:26:59.706 [info] [main] Using git "2.43.0" from "git"
+2025-04-10 10:26:59.706 [info] [Model][doInitialScan] Initial repository scan started
+2025-04-10 10:26:59.706 [info] > git rev-parse --show-toplevel [4ms]
+2025-04-10 10:26:59.706 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-04-10 10:26:59.706 [info] > git rev-parse --show-toplevel [26ms]
+2025-04-10 10:26:59.706 [info] > git rev-parse --git-dir --git-common-dir [1033ms]
+2025-04-10 10:26:59.706 [info] [Model][openRepository] Opened repository: /home/aysen_popov_1999/video-describer-job
+2025-04-10 10:26:59.706 [info] > git rev-parse --show-toplevel [23ms]
+2025-04-10 10:26:59.706 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-04-10 10:26:59.706 [info] > git config --get commit.template [39ms]
+2025-04-10 10:26:59.706 [info] > git rev-parse --show-toplevel [16ms]
+2025-04-10 10:26:59.706 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-04-10 10:26:59.713 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [13ms]
+2025-04-10 10:26:59.716 [info] > git rev-parse --show-toplevel [3ms]
+2025-04-10 10:26:59.716 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-04-10 10:26:59.755 [info] > git status -z -uall [14ms]
+2025-04-10 10:26:59.760 [info] > git rev-parse --show-toplevel [33ms]
+2025-04-10 10:26:59.760 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-04-10 10:27:02.559 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2808ms]
+2025-04-10 10:27:02.677 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [107ms]
+2025-04-10 10:27:02.695 [info] > git config --local branch.main.vscode-merge-base [8ms]
+2025-04-10 10:27:02.696 [warning] [Git][config] git config failed: Failed to execute git
+2025-04-10 10:27:02.703 [info] > git config --get commit.template [58ms]
+2025-04-10 10:27:02.704 [info] > git rev-parse --show-toplevel [99ms]
+2025-04-10 10:27:02.704 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-04-10 10:27:02.725 [info] > git rev-parse --show-toplevel [13ms]
+2025-04-10 10:27:02.726 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-04-10 10:27:02.727 [info] > git reflog main --grep-reflog=branch: Created from *. [23ms]
+2025-04-10 10:27:02.743 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [20ms]
+2025-04-10 10:27:02.747 [info] > git rev-parse --show-toplevel [6ms]
+2025-04-10 10:27:02.747 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-04-10 10:27:02.748 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [16ms]
+2025-04-10 10:27:02.748 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-04-10 10:27:02.748 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-04-10 10:27:02.774 [info] > git merge-base refs/heads/main refs/remotes/origin/main [13ms]
+2025-04-10 10:27:02.790 [info] > git rev-parse --show-toplevel [19ms]
+2025-04-10 10:27:02.793 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-04-10 10:27:02.819 [info] > git status -z -uall [20ms]
+2025-04-10 10:27:02.821 [info] > git diff --name-status -z --diff-filter=ADMR 366d912aa5d031497b0bd83732caf3183dd77a1a...refs/remotes/origin/main [31ms]
+2025-04-10 10:27:02.824 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [14ms]
+2025-04-10 10:27:02.831 [info] > git rev-parse --show-toplevel [14ms]
+2025-04-10 10:27:02.832 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-04-10 10:27:02.842 [info] > git rev-parse --show-toplevel [2ms]
+2025-04-10 10:27:02.842 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-04-10 10:27:02.843 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-04-10 10:27:03.469 [info] > git check-ignore -v -z --stdin [93ms]
+2025-04-10 10:27:03.473 [info] > git show --textconv :app.js [67ms]
+2025-04-10 10:27:03.475 [info] > git ls-files --stage -- /home/aysen_popov_1999/video-describer-job/app.js [57ms]
+2025-04-10 10:27:06.280 [info] > git cat-file -s 56dc35bda0bf17410975b3b70029de3d41d29c68 [2787ms]
+2025-04-10 10:27:29.658 [info] > git rev-parse --show-toplevel [2ms]
+2025-04-10 10:27:29.658 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-04-10 10:28:13.582 [info] > git rev-parse --show-toplevel [1ms]
+2025-04-10 10:28:13.582 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-04-10 10:33:50.376 [info] > git rev-parse --show-toplevel [1ms]
+2025-04-10 10:33:50.412 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2025-04-10 10:33:50.424 [info] [Model][openRepository] Opened repository: /home/aysen_popov_1999
+2025-04-10 10:33:50.443 [info] [Git][getRemotes] No remotes found in the git config file
+2025-04-10 10:33:50.444 [info] > git config --get commit.template [10ms]
+2025-04-10 10:33:50.445 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-04-10 10:33:50.445 [warning] [Git][getBranch] No such branch: master
+2025-04-10 10:33:50.473 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [7ms]
+2025-04-10 10:33:50.492 [info] > git status -z -uall [39ms]
+2025-04-10 10:33:50.821 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [278ms]
+2025-04-10 10:33:50.821 [warning] [Git][getBranch] No such branch: master
+2025-04-10 10:33:50.822 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2025-04-10 10:33:50.847 [info] > git config --get commit.template [27ms]
+2025-04-10 10:33:50.863 [info] [Git][getRemotes] No remotes found in the git config file
+2025-04-10 10:33:50.865 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-04-10 10:33:50.865 [warning] [Git][getBranch] No such branch: master
+2025-04-10 10:33:50.898 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-04-10 10:33:50.911 [info] > git status -z -uall [35ms]
+2025-04-10 10:33:51.361 [info] > git check-ignore -v -z --stdin [9ms]
+2025-04-10 10:33:51.363 [info] > git check-ignore -v -z --stdin [4ms]
+2025-04-10 10:36:32.653 [info] [Git][getRemotes] No remotes found in the git config file
+2025-04-10 10:36:32.654 [info] > git config --get commit.template [12ms]
+2025-04-10 10:36:32.655 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-04-10 10:36:32.655 [warning] [Git][getBranch] No such branch: master
+2025-04-10 10:36:32.690 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [7ms]
+2025-04-10 10:36:32.709 [info] > git status -z -uall [44ms]
+2025-04-10 10:36:33.038 [info] > git ls-files --stage -- /home/aysen_popov_1999/video-describer-job/app.js [8ms]
+2025-04-10 10:36:33.053 [info] > git cat-file -s 56dc35bda0bf17410975b3b70029de3d41d29c68 [3ms]
+2025-04-10 10:36:36.368 [info] > git show --textconv :app.js [3ms]
+2025-04-10 10:36:37.752 [info] [Git][getRemotes] No remotes found in the git config file
+2025-04-10 10:36:37.760 [info] > git config --get commit.template [9ms]
+2025-04-10 10:36:37.762 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-04-10 10:36:37.762 [warning] [Git][getBranch] No such branch: master
+2025-04-10 10:36:37.789 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-04-10 10:36:37.807 [info] > git status -z -uall [36ms]
+2025-04-10 10:36:57.000 [info] [Git][getRemotes] No remotes found in the git config file
+2025-04-10 10:36:57.001 [info] > git config --get commit.template [9ms]
+2025-04-10 10:36:57.002 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-04-10 10:36:57.002 [warning] [Git][getBranch] No such branch: master
+2025-04-10 10:36:57.027 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-04-10 10:36:57.048 [info] > git status -z -uall [36ms]
+2025-04-10 10:37:02.080 [info] [Git][getRemotes] No remotes found in the git config file
+2025-04-10 10:37:02.081 [info] > git config --get commit.template [8ms]
+2025-04-10 10:37:02.082 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-04-10 10:37:02.082 [warning] [Git][getBranch] No such branch: master
+2025-04-10 10:37:02.107 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2025-04-10 10:37:02.127 [info] > git status -z -uall [37ms]
+2025-04-10 10:37:10.978 [info] > git show --textconv :views/index.pug [10ms]
+2025-04-10 10:37:10.980 [info] > git ls-files --stage -- /home/aysen_popov_1999/video-describer-job/views/index.pug [2ms]
+2025-04-10 10:37:10.989 [info] > git cat-file -s 7a548f2e680b994e23563be980074a9367fa57df [3ms]
+2025-04-10 10:37:14.210 [info] > git show --textconv :app.js [9ms]
+2025-04-10 10:37:14.211 [info] > git ls-files --stage -- /home/aysen_popov_1999/video-describer-job/app.js [2ms]
+2025-04-10 10:37:14.221 [info] > git cat-file -s 56dc35bda0bf17410975b3b70029de3d41d29c68 [3ms]
+2025-04-10 10:37:29.715 [info] > git config --get commit.template [9ms]
+2025-04-10 10:37:29.716 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-04-10 10:37:29.736 [info] > git status -z -uall [12ms]
+2025-04-10 10:37:29.738 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-04-10 10:37:34.695 [info] [Git][getRemotes] No remotes found in the git config file
+2025-04-10 10:37:34.696 [info] > git config --get commit.template [10ms]
+2025-04-10 10:37:34.697 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-04-10 10:37:34.697 [warning] [Git][getBranch] No such branch: master
+2025-04-10 10:37:34.718 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-04-10 10:37:34.752 [info] > git status -z -uall [48ms]
+2025-04-10 10:37:34.778 [info] > git config --get commit.template [27ms]
+2025-04-10 10:37:34.787 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-04-10 10:37:34.804 [info] > git status -z -uall [9ms]
+2025-04-10 10:37:34.806 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-04-10 10:37:35.702 [info] > git show --textconv :package.json [21ms]
+2025-04-10 10:37:35.703 [info] > git ls-files --stage -- /home/aysen_popov_1999/video-describer-job/package.json [10ms]
+2025-04-10 10:37:35.723 [info] > git cat-file -s 9e5d2a34037f37ddb8465a9c800d271e0857f9b4 [9ms]
+2025-04-10 10:37:37.632 [info] > git show --textconv :views/index.pug [9ms]
+2025-04-10 10:37:37.634 [info] > git ls-files --stage -- /home/aysen_popov_1999/video-describer-job/views/index.pug [3ms]
+2025-04-10 10:37:37.643 [info] > git cat-file -s 7a548f2e680b994e23563be980074a9367fa57df [3ms]
+2025-04-10 10:37:39.827 [info] > git config --get commit.template [8ms]
+2025-04-10 10:37:39.828 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-04-10 10:37:39.844 [info] > git status -z -uall [9ms]
+2025-04-10 10:37:39.847 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]

@@ -1,0 +1,132 @@
+0 verbose cli /usr/local/nvm/versions/node/v22.14.0/bin/node /usr/local/nvm/versions/node/v22.14.0/bin/npm
+1 info using npm@11.2.0
+2 info using node@v22.14.0
+3 silly config load:file:/usr/local/nvm/versions/node/v22.14.0/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/aysen_popov_1999/video-describer-job/.npmrc
+5 silly config load:file:/home/aysen_popov_1999/.npmrc
+6 silly config load:file:/usr/local/nvm/versions/node/v22.14.0/etc/npmrc
+7 verbose title npm install
+8 verbose argv "install"
+9 verbose logfile logs-max:10 dir:/home/aysen_popov_1999/.npm/_logs/2025-04-10T10_00_09_798Z-
+10 verbose logfile /home/aysen_popov_1999/.npm/_logs/2025-04-10T10_00_09_798Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
+13 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+14 silly idealTree buildDeps
+15 silly reify moves {}
+16 silly audit bulk request {
+16 silly audit   '@babel/helper-string-parser': [ '7.25.9' ],
+16 silly audit   '@babel/helper-validator-identifier': [ '7.25.9' ],
+16 silly audit   '@babel/parser': [ '7.27.0' ],
+16 silly audit   '@babel/types': [ '7.27.0' ],
+16 silly audit   accepts: [ '1.3.8' ],
+16 silly audit   acorn: [ '7.4.1' ],
+16 silly audit   'array-flatten': [ '1.1.1' ],
+16 silly audit   asap: [ '2.0.6' ],
+16 silly audit   'assert-never': [ '1.4.0' ],
+16 silly audit   'babel-walk': [ '3.0.0-canary-5' ],
+16 silly audit   'body-parser': [ '1.20.3' ],
+16 silly audit   bytes: [ '3.1.2' ],
+16 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+16 silly audit   'call-bound': [ '1.0.4' ],
+16 silly audit   'character-parser': [ '2.2.0' ],
+16 silly audit   constantinople: [ '4.0.1' ],
+16 silly audit   'content-disposition': [ '0.5.4' ],
+16 silly audit   'content-type': [ '1.0.5' ],
+16 silly audit   cookie: [ '0.7.1' ],
+16 silly audit   'cookie-signature': [ '1.0.6' ],
+16 silly audit   debug: [ '2.6.9' ],
+16 silly audit   depd: [ '2.0.0' ],
+16 silly audit   destroy: [ '1.2.0' ],
+16 silly audit   doctypes: [ '1.1.0' ],
+16 silly audit   'dunder-proto': [ '1.0.1' ],
+16 silly audit   'ee-first': [ '1.1.1' ],
+16 silly audit   encodeurl: [ '2.0.0', '1.0.2' ],
+16 silly audit   'es-define-property': [ '1.0.1' ],
+16 silly audit   'es-errors': [ '1.3.0' ],
+16 silly audit   'es-object-atoms': [ '1.1.1' ],
+16 silly audit   'escape-html': [ '1.0.3' ],
+16 silly audit   etag: [ '1.8.1' ],
+16 silly audit   express: [ '4.21.2' ],
+16 silly audit   finalhandler: [ '1.3.1' ],
+16 silly audit   forwarded: [ '0.2.0' ],
+16 silly audit   fresh: [ '0.5.2' ],
+16 silly audit   'function-bind': [ '1.1.2' ],
+16 silly audit   'get-intrinsic': [ '1.3.0' ],
+16 silly audit   'get-proto': [ '1.0.1' ],
+16 silly audit   gopd: [ '1.2.0' ],
+16 silly audit   'has-symbols': [ '1.1.0' ],
+16 silly audit   'has-tostringtag': [ '1.0.2' ],
+16 silly audit   hasown: [ '2.0.2' ],
+16 silly audit   'http-errors': [ '2.0.0' ],
+16 silly audit   'iconv-lite': [ '0.4.24' ],
+16 silly audit   inherits: [ '2.0.4' ],
+16 silly audit   'ipaddr.js': [ '1.9.1' ],
+16 silly audit   'is-core-module': [ '2.16.1' ],
+16 silly audit   'is-expression': [ '4.0.0' ],
+16 silly audit   'is-promise': [ '2.2.2' ],
+16 silly audit   'is-regex': [ '1.2.1' ],
+16 silly audit   'js-stringify': [ '1.0.2' ],
+16 silly audit   jstransformer: [ '1.0.0' ],
+16 silly audit   'math-intrinsics': [ '1.1.0' ],
+16 silly audit   'media-typer': [ '0.3.0' ],
+16 silly audit   'merge-descriptors': [ '1.0.3' ],
+16 silly audit   methods: [ '1.1.2' ],
+16 silly audit   mime: [ '1.6.0' ],
+16 silly audit   'mime-db': [ '1.52.0' ],
+16 silly audit   'mime-types': [ '2.1.35' ],
+16 silly audit   ms: [ '2.0.0', '2.1.3' ],
+16 silly audit   negotiator: [ '0.6.3' ],
+16 silly audit   'node.js': [ '0.0.1-security' ],
+16 silly audit   'object-assign': [ '4.1.1' ],
+16 silly audit   'object-inspect': [ '1.13.4' ],
+16 silly audit   'on-finished': [ '2.4.1' ],
+16 silly audit   parseurl: [ '1.3.3' ],
+16 silly audit   'path-parse': [ '1.0.7' ],
+16 silly audit   'path-to-regexp': [ '0.1.12' ],
+16 silly audit   promise: [ '7.3.1' ],
+16 silly audit   'proxy-addr': [ '2.0.7' ],
+16 silly audit   pug: [ '3.0.3' ],
+16 silly audit   'pug-attrs': [ '3.0.0' ],
+16 silly audit   'pug-code-gen': [ '3.0.3' ],
+16 silly audit   'pug-error': [ '2.1.0' ],
+16 silly audit   'pug-filters': [ '4.0.0' ],
+16 silly audit   'pug-lexer': [ '5.0.1' ],
+16 silly audit   'pug-linker': [ '4.0.0' ],
+16 silly audit   'pug-load': [ '3.0.0' ],
+16 silly audit   'pug-parser': [ '6.0.0' ],
+16 silly audit   'pug-runtime': [ '3.0.1' ],
+16 silly audit   'pug-strip-comments': [ '2.0.0' ],
+16 silly audit   'pug-walk': [ '2.0.0' ],
+16 silly audit   qs: [ '6.13.0' ],
+16 silly audit   'range-parser': [ '1.2.1' ],
+16 silly audit   'raw-body': [ '2.5.2' ],
+16 silly audit   resolve: [ '1.22.10' ],
+16 silly audit   'safe-buffer': [ '5.2.1' ],
+16 silly audit   'safer-buffer': [ '2.1.2' ],
+16 silly audit   send: [ '0.19.0' ],
+16 silly audit   'serve-static': [ '1.16.2' ],
+16 silly audit   setprototypeof: [ '1.2.0' ],
+16 silly audit   'side-channel': [ '1.1.0' ],
+16 silly audit   'side-channel-list': [ '1.0.0' ],
+16 silly audit   'side-channel-map': [ '1.0.1' ],
+16 silly audit   'side-channel-weakmap': [ '1.0.2' ],
+16 silly audit   statuses: [ '2.0.1' ],
+16 silly audit   'supports-preserve-symlinks-flag': [ '1.0.0' ],
+16 silly audit   toidentifier: [ '1.0.1' ],
+16 silly audit   'token-stream': [ '1.0.0' ],
+16 silly audit   'type-is': [ '1.6.18' ],
+16 silly audit   unpipe: [ '1.0.0' ],
+16 silly audit   'utils-merge': [ '1.0.1' ],
+16 silly audit   vary: [ '1.1.2' ],
+16 silly audit   'void-elements': [ '3.1.0' ],
+16 silly audit   with: [ '7.0.2' ]
+16 silly audit }
+17 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 356ms
+18 silly audit report {}
+19 verbose cwd /home/aysen_popov_1999/video-describer-job
+20 verbose os Linux 6.6.72+
+21 verbose node v22.14.0
+22 verbose npm  v11.2.0
+23 verbose exit 0
+24 info ok

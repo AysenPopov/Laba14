@@ -1,0 +1,50 @@
+0 verbose cli /usr/local/nvm/versions/node/v22.14.0/bin/node /usr/local/nvm/versions/node/v22.14.0/bin/npm
+1 info using npm@11.2.0
+2 info using node@v22.14.0
+3 silly config load:file:/usr/local/nvm/versions/node/v22.14.0/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/aysen_popov_1999/video-describer-job/.npmrc
+5 silly config load:file:/home/aysen_popov_1999/.npmrc
+6 silly config load:file:/usr/local/nvm/versions/node/v22.14.0/etc/npmrc
+7 verbose title npm install Node.js
+8 verbose argv "install" "Node.js"
+9 verbose logfile logs-max:10 dir:/home/aysen_popov_1999/.npm/_logs/2025-04-10T09_59_39_594Z-
+10 verbose logfile /home/aysen_popov_1999/.npm/_logs/2025-04-10T09_59_39_594Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
+13 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+14 silly idealTree buildDeps
+15 silly fetch manifest Node.js@*
+16 silly packumentCache full:https://registry.npmjs.org/Node.js cache-miss
+17 http fetch GET 404 https://registry.npmjs.org/Node.js 708ms (cache skip)
+18 silly placeDep ROOT Node.js@ REPLACE for: demo@1.0.0 want: *
+19 verbose stack HttpErrorGeneral: 404 Not Found - GET https://registry.npmjs.org/Node.js - Not found
+19 verbose stack     at /usr/local/nvm/versions/node/v22.14.0/lib/node_modules/npm/node_modules/npm-registry-fetch/lib/check-response.js:103:15
+19 verbose stack     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+19 verbose stack     at async RegistryFetcher.packument (/usr/local/nvm/versions/node/v22.14.0/lib/node_modules/npm/node_modules/pacote/lib/registry.js:90:19)
+19 verbose stack     at async RegistryFetcher.manifest (/usr/local/nvm/versions/node/v22.14.0/lib/node_modules/npm/node_modules/pacote/lib/registry.js:128:23)
+19 verbose stack     at async #fetchManifest (/usr/local/nvm/versions/node/v22.14.0/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:1202:20)
+19 verbose stack     at async #nodeFromEdge (/usr/local/nvm/versions/node/v22.14.0/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:1040:19)
+19 verbose stack     at async #buildDepStep (/usr/local/nvm/versions/node/v22.14.0/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:904:11)
+19 verbose stack     at async Arborist.buildIdealTree (/usr/local/nvm/versions/node/v22.14.0/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:181:7)
+19 verbose stack     at async Promise.all (index 1)
+19 verbose stack     at async Arborist.reify (/usr/local/nvm/versions/node/v22.14.0/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:131:5)
+20 verbose statusCode 404
+21 verbose pkgid Node.js@*
+22 error code E404
+23 error 404 Not Found - GET https://registry.npmjs.org/Node.js - Not found
+24 error 404
+25 error 404  'Node.js@*' is not in this registry.
+26 error 404 This package name is not valid, because 
+27 error 404  1. name can no longer contain capital letters
+28 error 404
+29 error 404 Note that you can also install from a
+30 error 404 tarball, folder, http url, or git url.
+31 silly unfinished npm timer reify 1744279179945
+32 silly unfinished npm timer reify:loadTrees 1744279179948
+33 verbose cwd /home/aysen_popov_1999/video-describer-job
+34 verbose os Linux 6.6.72+
+35 verbose node v22.14.0
+36 verbose npm  v11.2.0
+37 verbose exit 1
+38 verbose code 1
+39 error A complete log of this run can be found in: /home/aysen_popov_1999/.npm/_logs/2025-04-10T09_59_39_594Z-debug-0.log
