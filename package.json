@@ -3,12 +3,11 @@
     "version": "1.0.0",
     "main": "app.js",
     "scripts": {
-        "start": "node app.js"
+      "start": "node app.js"
     },
     "license": "ISC",
     "dependencies": {
-        "express": "^4.19.2",
-        "node.js": "^0.0.1-security",
-        "pug": "^3.0.2"
+      "express": "^4.19.2",
+      "pug": "^3.0.2"
     }
-}
+   }
